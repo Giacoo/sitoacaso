@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contattami</title>
+</head>
+
+<body>
+  <h1>I miei contatti</h1>
+  <h6>*non ti do i miei contatti</h6>
+  <hr>
+  <!-- Ora credo un form che si può compilare con diversi tipi di input -->
+  <form action="mailto:jacopo.albrizio@gmail.com" method="post" enctype="text/plain">
+    <label for="">Nome:</label> <!-- Label == etichetta -->
+    <input type="text" name="Nome" value=""><br> <!-- Questo è il tag per andare a capo, e non si chiude -->
+    <label for="">Email:</label>
+    <input type="email" name="Email" value=""><br>
+    <label for="">Messaggio:</label><br>
+    <textarea name="Messaggio" rows="10" cols="30"></textarea><br> <!-- Tag per creare un'area di testo -->
+    <input type="submit" name=""> <!-- Per 'submit', rimuovere l'attribuuto 'value' -->
+  </form>
+  <br>
+  <a href="index.html">Torna alla home</a>
+</body>
+
+</html>
